@@ -23,23 +23,22 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. Clone the repository:
 
-   git clone https://github.com/harshadaYCSM/react-routes-transition-example.git
+   `git clone https://github.com/harshadaYCSM/react-routes-transition-example.git`
 
 2. Navigate to the project directory:
 
-  bash
-   cd react-routes-transition-example
+   `cd react-routes-transition-example`
    
 
 3. Install the dependencies:
 
    Using npm:
 
-   npm install
+   `npm install`
 
    Or using yarn:
 
-   yarn install
+   `yarn install`
 
 ### Running the Application
 
@@ -47,11 +46,11 @@ To start the development server and run the application locally, use the followi
 
 Using npm:
 
-npm start
+`npm start`
 
 Or using yarn:
 
-yarn start
+`yarn start`
 
 Open your browser and navigate to \`http://localhost:3000\` to see the application in action.
 
@@ -61,11 +60,11 @@ To create a production build of the application, use the following command:
 
 Using npm:
 
-npm run build
+`npm run build`
 
 Or using yarn:
 
-yarn build
+`yarn build`
 
 This will create a \`build\` directory with the production files.
 
@@ -73,15 +72,12 @@ This will create a \`build\` directory with the production files.
 
 ## Customizing Transitions
 
-The transitions are defined in the CSS file located at \`src/styles/transitions.css\`. You can customize the animations by modifying the CSS classes.
+The transitions are defined in the hook `useTransitionStyles` which can be customized as per ypour requirements.
 
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request. Contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
