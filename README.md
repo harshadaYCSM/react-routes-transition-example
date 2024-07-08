@@ -23,29 +23,23 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. Clone the repository:
 
-   \`\`\`bash
    git clone https://github.com/harshadaYCSM/react-routes-transition-example.git
-   \`\`\`
 
 2. Navigate to the project directory:
 
-   \`\`\`bash
+  bash
    cd react-routes-transition-example
-   \`\`\`
+   
 
 3. Install the dependencies:
 
    Using npm:
 
-   \`\`\`bash
    npm install
-   \`\`\`
 
    Or using yarn:
 
-   \`\`\`bash
    yarn install
-   \`\`\`
 
 ### Running the Application
 
@@ -53,15 +47,11 @@ To start the development server and run the application locally, use the followi
 
 Using npm:
 
-\`\`\`bash
 npm start
-\`\`\`
 
 Or using yarn:
 
-\`\`\`bash
 yarn start
-\`\`\`
 
 Open your browser and navigate to \`http://localhost:3000\` to see the application in action.
 
@@ -71,50 +61,15 @@ To create a production build of the application, use the following command:
 
 Using npm:
 
-\`\`\`bash
 npm run build
-\`\`\`
 
 Or using yarn:
 
-\`\`\`bash
 yarn build
-\`\`\`
 
 This will create a \`build\` directory with the production files.
 
-## Project Structure
 
-The project structure is organized as follows:
-
-\`\`\`
-react-routes-transition-example/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── Home.js
-│   │   ├── About.js
-│   │   ├── Contact.js
-│   │   └── ...
-│   ├── App.js
-│   ├── index.js
-│   ├── routes.js
-│   └── styles/
-│       ├── transitions.css
-│       └── ...
-├── package.json
-└── ...
-\`\`\`
-
-- \`public/\`: Contains the static assets and the HTML template.
-- \`src/\`: Contains the source code for the React application.
-    - \`components/\`: Contains the React components for different routes.
-    - \`styles/\`: Contains the CSS files for styling, including transitions.
-    - \`App.js\`: The main component that sets up the router and transitions.
-    - \`index.js\`: The entry point of the React application.
-    - \`routes.js\`: Defines the routes for the application.
 
 ## Customizing Transitions
 
