@@ -1,7 +1,6 @@
-// src/pages/About.tsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Button, Typography } from "@mui/material";
+import { Button } from "@mui/material";
 
 const Header: React.FC = () => {
   const navigate = useNavigate();
