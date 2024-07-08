@@ -9,12 +9,8 @@ const Home: React.FC = () => {
     return (
         <div>
             <Typography variant="h4">Home Page</Typography>
-            <Button variant="contained" color="primary" onClick={() => navigate('/about')}>
-                Go to About
-            </Button>
-            <Button variant="contained" color="secondary" onClick={() => navigate('/contact')}>
-                Go to Contact
-            </Button>
+           Hello, welcome to the home page. This is a simple example of how to use the react-router-dom library with Material-UI.
+            Here you can navigate to the About and Contact pages.
         </div>
     );
 };

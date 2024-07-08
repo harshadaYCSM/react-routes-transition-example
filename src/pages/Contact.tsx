@@ -1,20 +1,19 @@
-// src/pages/Contact.tsx
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Button, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 
 const Contact: React.FC = () => {
-    const navigate = useNavigate();
 
     return (
         <div>
             <Typography variant="h4">Contact Page</Typography>
-            <Button variant="contained" color="primary" onClick={() => navigate('/')}>
-                Go to Home
-            </Button>
-            <Button variant="contained" color="secondary" onClick={() => navigate('/about')}>
-                Go to About
-            </Button>
+           Contact us at:
+            <ul>
+                <li>Phone: 123-456-7890</li>
+                <li>Email:
+                    <a href="mailto:abc@abc.com">abc@abc.com
+                    </a>
+                </li>
+            </ul>
         </div>
     );
 };
