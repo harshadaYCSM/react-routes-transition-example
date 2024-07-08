@@ -16,7 +16,7 @@ const TransitionRoutes: React.FC = () => {
       <CSSTransition
         key={location.key}
         nodeRef={nodeRef}
-        timeout={{ enter: 300, exit: 50 }}
+        timeout={{ enter: 1000, exit: 50 }}
         classNames=""
         onExit={onExit}
         onEnter={onEnter}
